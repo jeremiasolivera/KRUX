@@ -1,0 +1,53 @@
+.cont-img-cover{
+    width: 100%;
+    height: 100vh;
+    position: relative;    
+}
+
+/*IMG CONT*/
+
+.img-cover{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: brightness(15%);
+}
+
+/*TEXT CONT*/
+
+
+h3{
+    font-size: 14px;
+}
+
+.logoName-text-cover{
+    font-size: 80px;
+}
+
+.cont-text-cover{
+    color: var(--letters);
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 200px 0;
+}
+
+.header-text-cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoName-text-cover{
+    text-align: center;
+    font-weight: 700;
+}

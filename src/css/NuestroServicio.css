@@ -1,0 +1,34 @@
+.nuestroServicio-cont{
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.nuestroServicio-title{
+    margin: 0;
+    font-weight: 400;
+    font-size: 27px;
+    text-align: center;
+}
+
+.nuestroServicio-p{
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.miniCards-cont{
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.nuestroServicio-icon-wave{
+    width: 40px;
+    margin: 0 auto;
+}

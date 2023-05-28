@@ -1,0 +1,22 @@
+.card1-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1-img{
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+
+.card1-line{
+    width: 50px;
+    height: 2.5px;
+    margin: 10px 0;
+    background-color: var(--secondary-bg);
+}
+.card1-title{
+    letter-spacing: 1px;
+}
